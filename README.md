@@ -10,16 +10,13 @@ This is Demo project for employee management for practice
 # ApiProject
 
 ## REST APIs
-In this project REST APIs is emplemented with Swagger documentation [See Controller](https://github.com/Bilal-surawala/EmployeeManagement/blob/master/ApiProject/Controllers/EmployeesController.cs)
+In this project REST APIs is implemented with Swagger documentation [See Controller](https://github.com/Bilal-surawala/EmployeeManagement/blob/master/ApiProject/Controllers/EmployeesController.cs)
 
 ## AutoMapper 
 Used AutoMappre for map domain entity with view model [See Class](https://github.com/Bilal-surawala/EmployeeManagement/blob/master/ApiProject/AutoMapper/MapProfiles.cs)
 
 ## Azure Blob storage
 Azure Blob storage used to store Images, Images are stored in azure but facing issue while access it [See](https://github.com/Bilal-surawala/EmployeeManagement/blob/master/ApiProject/Services/BlobsService.cs)
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # DAL
 Database access layer for API which is loosely coupled with API project
@@ -30,3 +27,5 @@ used common service interface for CRUD of specific entity
 
 # Client-app
 create frontend project with Vue3 and vuex
+
+## Element Plus, a Vue 3 based component library used for UI
